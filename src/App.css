@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.search-button {
+  background-color: #1db954;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.result-item {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.result-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.result-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.play-button {
+  background-color: #1db954;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="range"] {
+  transition: background-size 0.2s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background: #22c55e; 
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+input[type="range"]::-moz-range-thumb {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background: #22c55e;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+}
+input[type="range"]::-webkit-slider-thumb:hover,
+input[type="range"]::-moz-range-thumb:hover {
+  background: #16a34a; 
+}
