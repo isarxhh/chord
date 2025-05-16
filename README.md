@@ -1,12 +1,50 @@
-# React + Vite
+# 🎶 Chord - Cross-Platform Music Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node-%3E=16-brightgreen)](https://nodejs.org/)
+[![Electron](https://img.shields.io/badge/electron-v25-blueviolet)](https://www.electronjs.org/)
+[![Spotify API](https://img.shields.io/badge/Spotify-API-green)](https://developer.spotify.com/documentation/web-api/)
+[![YouTube API](https://img.shields.io/badge/YouTube-API-red)](https://developers.google.com/youtube)
 
-Currently, two official plugins are available:
+![Chord Demo](https://your-image-or-gif-url-here.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Chord** is a sleek, modern desktop music player combining **Spotify** and **YouTube** into one seamless experience. Search, queue, and play your favorite tunes with powerful offline download support — all wrapped in an elegant Electron app.
+
+---
+
+## ✨ Features
+
+- 🔍 Unified Spotify & YouTube search  
+- ▶️ Play, pause, skip, and queue management  
+- 🎧 Offline downloads powered by `yt-dlp`  
+- 📂 Local playlist creation & management  
+- ⚡ Cross-platform Electron desktop app  
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS, Flowbite, Heroicons
+- **Backend:** Node.js, Express, Spotify Web API, YouTube Data API, yt-dlp-wrap  
+- **Desktop:** Electron  
+- **Tools:** dotenv, CORS  
+
+---
+
+## 📸 Screenshots / Demo
+
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check issues page or submit pull requests.
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+📞 Contact
+Made with ❤️ by SAARAH
+[Twitter](https://x.com/isxarahh)
+
+Enjoy your music with Chord! 🎵💃
